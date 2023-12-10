@@ -1,0 +1,27 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+        "source": "/soka",
+        "destination": "https://soka.appdeco.ca",
+        "type": 301
+      },
+      {
+        "source": "/classifier",
+        "destination": "https://classifier.appdeco.ca",
+        "type": 301
+      },
+      {
+        "source": "/ceramispace",
+        "destination": "https://ceramispace.appdeco.ca",
+        "type": 301
+      }
+    ]
+  }
+}

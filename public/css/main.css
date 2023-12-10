@@ -1,0 +1,137 @@
+.primary-gradient {
+    background-image: linear-gradient(to bottom right, var(--primary-gradient-start), var(--heaprimaryder-gradient-end));
+}
+
+.secondary-gradient {
+    background-image: linear-gradient(to bottom right, var(--secondary-gradient-start), var(--secondary-gradient-end));
+}
+
+.hide-mobile {
+    display: none;
+}
+
+.header-container {
+    padding-top: max(5%, 40px);
+    overflow: clip;
+}
+
+.body-container {
+    overflow: clip;
+}
+
+.press {
+    padding-top: max(5%, 40px);
+}
+
+.paragraph {
+    padding-top: max(5%, 40px);
+    padding-bottom: max(5%, 40px);
+    display: flex; 
+    align-items: center;
+}
+
+.left-screenshot {
+    padding-top: max(5%, 40px);
+}
+
+.screenshot {
+    max-width: 100%;
+    overflow: clip;
+}
+
+.screenshot-img {
+    width: 100%;
+}
+
+.screenshot-img-clipped {
+    margin-bottom: -84%;
+}
+
+.screenshot-img-clipped-map {
+    margin-bottom: -74%;
+}
+
+h1 {
+    font-family: "Rambla", sans-serif;
+    font-weight: 700;
+}
+
+h4 {
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+p {
+    letter-spacing: 0.02rem;
+}
+
+.faq-img {
+    max-width: 100%;
+    width: 393px;
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    float: left;
+    margin-right: 20px;
+}
+
+.footer-links {
+  display: flex; 
+  align-items: center;
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 680px) {
+  .body-container {
+    padding-top: max(5%, 20px);
+    padding-bottom: max(5%, 20px);
+  }
+
+  .image-row {
+    display: flex; 
+    align-items: middle;
+  }
+
+  .hide-mobile {
+    display: inline;
+  }
+
+  .screenshot {
+    overflow: revert;
+  }
+
+  .screenshot-img {
+    width: 80%;
+    padding-top: 4%;
+    padding-left: 10%;
+    margin-bottom: -50%;
+  }
+
+  .right-screenshot {
+    transform: rotate(0.02turn);
+  }
+
+  .left-screenshot {
+    transform: rotate(-0.02turn);
+    padding-top: revert;
+  }
+
+  .made-with {
+    text-align: center;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .phone-header {
+    font-size: 1.7rem;
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 980px) {
+  .phone-header {
+    font-size: 2.2rem;
+  }
+}
