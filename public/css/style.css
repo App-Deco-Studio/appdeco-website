@@ -133,7 +133,7 @@ p.outro {
 
   .content {
     min-width: calc(100vw - 6rem);
-    height: 60vh;
+    height: auto;
     min-height: 720px;
     width: calc(100vw - 4rem);
     padding: 3rem 2rem;
@@ -142,7 +142,8 @@ p.outro {
   .accessory {
     width: 100vw;
     min-height: 640px;
-    height: 40vh;
+    height: auto;
+    padding: 1rem 0;
   }
   
   .accessory-section {
