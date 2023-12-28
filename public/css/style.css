@@ -141,12 +141,16 @@ p.outro {
 
   .accessory {
     width: 100vw;
-    min-height: 640px;
+    min-height: 480px;
     height: auto;
     padding: 1rem 0;
   }
   
   .accessory-section {
     padding: 0rem 2rem;
+  }
+
+  .external-link h1 {
+    font-size: 1.25rem;
   }
 }
