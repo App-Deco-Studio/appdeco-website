@@ -21,6 +21,11 @@
         "source": "/ceramispace",
         "destination": "https://ceramispace.appdeco.ca",
         "type": 301
+      },
+      {
+        "source": "/pokemon",
+        "destination": "https://apps.apple.com/us/app/play-trainer-id-for-pokémon/id6670515094",
+        "type": 301
       }
     ]
   }
